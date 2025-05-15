@@ -2,25 +2,56 @@
 <html lang="ro">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zoomagazinul AnimalLand</title>
-  <link rel="stylesheet" href="style.css">
+  <title>ZooMagazin</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 30px;
+    }
+    .produs {
+      display: inline-block;
+      background-color: white;
+      margin: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 250px;
+    }
+    .produs img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .pret {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+      color: #007b00;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Zoomagazinul AnimalLand</h1>
-    <p>Totul pentru prietenii tăi necuvântători</p>
-  </header>
-  <main>
-    <section class="intro">
-      <h2>Bine ai venit!</h2>
-      <p>La AnimalLand găsești hrană, accesorii, jucării și produse de îngrijire pentru animale de companie.</p>
-      <img src="https://cdn.pixabay.com/photo/2016/11/29/12/54/cat-1868911_1280.jpg" alt="Pisică fericită">
-    </section>
-  </main>
+  <h1>Produse pentru animale</h1>
 
-  <footer>
-    <p>&copy; 2025 Zoomagazinul AnimalLand</p>
-  </footer>
+  <div class="produs">
+    <img src="hrana.png" alt="Hrană pentru câini">
+    <h2>Hrană pentru câini</h2>
+    <p class="pret">120 MDL</p>
+  </div>
+
+  <div class="produs">
+    <img src="jucarie.png" alt="Jucărie pentru pisici">
+    <h2>Jucărie interactivă</h2>
+    <p class="pret">85 MDL</p>
+  </div>
+
+  <div class="produs">
+    <img src="accesoriu.png" alt="Acvariu pentru pești">
+    <h2>Acvariu mic</h2>
+    <p class="pret">300 MDL</p>
+  </div>
 </body>
 </html>
