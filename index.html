@@ -3,55 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>ZooMagazin</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f8f8f8;
-      text-align: center;
-    }
-    h1 {
-      margin-top: 30px;
-    }
-    .produs {
-      display: inline-block;
-      background-color: white;
-      margin: 20px;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 250px;
-    }
-    .produs img {
-      width: 100%;
-      border-radius: 8px;
-    }
-    .pret {
-      font-size: 18px;
-      font-weight: bold;
-      margin-top: 10px;
-      color: #007b00;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Produse pentru animale</h1>
+  <h1>Bine ați venit la ZooMagazin</h1>
+  <p class="despre">
+    ZooMagazin este o companie dedicată grijii față de animale. Oferim hrană, accesorii și jucării de calitate pentru prietenii noștri necuvântători.
+  </p>
 
-  <div class="produs">
-    <img src="hrana.jpg" alt="Hrană pentru câini">
-    <h2>Hrană pentru câini</h2>
-    <p class="pret">120 MDL</p>
-  </div>
+  <h2>Site-uri utile pentru iubitorii de animale</h2>
+  <table>
+    <tr>
+      <th>Nume site</th>
+      <th>Link</th>
+      <th>Descriere</th>
+    </tr>
+    <tr>
+      <td>Adapost.md</td>
+      <td><a href="https://adapost.md" target="_blank">Vizitează</a></td>
+      <td>Adopții și protecția animalelor</td>
+    </tr>
+    <tr>
+      <td>DoctorVet</td>
+      <td><a href="https://doctorvet.md" target="_blank">Vizitează</a></td>
+      <td>Clinici veterinare în Moldova</td>
+    </tr>
+    <tr>
+      <td>AnimaleFericite</td>
+      <td><a href="https://animalifericite.md" target="_blank">Vizitează</a></td>
+      <td>Recomandări pentru îngrijirea animalelor</td>
+    </tr>
+  </table>
 
-  <div class="produs">
-    <img src="jucarie.jpg" alt="Jucărie pentru pisici">
-    <h2>Jucărie interactivă</h2>
-    <p class="pret">85 MDL</p>
-  </div>
+  <h2>Produsele noastre</h2>
+  <div class="produse">
+    <div class="produs">
+      <img src="hrana.png" alt="Hrana pentru animale">
+      <h3>Hrană premium</h3>
+      <p>Preț: 89.99 MDL</p>
+    </div>
 
-  <div class="produs">
-    <img src="accesoriu.jpg" alt="Acvariu pentru pești">
-    <h2>Acvariu mic</h2>
-    <p class="pret">300 MDL</p>
+    <div class="produs">
+      <img src="jucarie.jpg" alt="Jucărie pentru animale">
+      <h3>Jucărie interactivă</h3>
+      <p>Preț: 45.00 MDL</p>
+    </div>
+
+    <div class="produs">
+      <img src="accesoriu.jpg" alt="Accesoriu pentru animale">
+      <h3>Accesoriu elegant</h3>
+      <p>Preț: 60.00 MDL</p>
+    </div>
   </div>
 </body>
 </html>
