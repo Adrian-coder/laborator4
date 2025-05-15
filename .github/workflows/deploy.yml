@@ -19,7 +19,7 @@ jobs:
       - name: Upload HTML to Pages
         uses: actions/upload-pages-artifact@v1
         with:
-          path: 
+          path: .  
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
